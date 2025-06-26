@@ -32,7 +32,7 @@ export default function Skills() {
       rating: "Max Rating: 1687",
       icon: Trophy,
       color: "bg-green-100 text-green-600",
-      url: "https://codingninjas.com/profile"
+      url: "https://www.naukri.com/code360/profile/prishika211"
     },
     {
       platform: "CodeChef",
@@ -40,7 +40,7 @@ export default function Skills() {
       rating: "Max Rating: 1443",
       icon: Medal,
       color: "bg-yellow-100 text-yellow-600",
-      url: "https://codechef.com/profile"
+      url: "https://www.codechef.com/users/prishika211"
     },
     {
       platform: "GeeksforGeeks",
@@ -48,7 +48,7 @@ export default function Skills() {
       rating: "Active Contributor",
       icon: Star,
       color: "bg-orange-100 text-orange-600",
-      url: "https://geeksforgeeks.org/profile"
+      url: "https://www.geeksforgeeks.org/user/prishikacdy10/"
     },
     {
       platform: "LeetCode",
@@ -56,7 +56,7 @@ export default function Skills() {
       rating: "Max Rating: 1598",
       icon: GitBranch,
       color: "bg-blue-100 text-blue-600",
-      url: "https://leetcode.com/profile"
+      url: "https://leetcode.com/u/prishika211/"
     }
   ];
 

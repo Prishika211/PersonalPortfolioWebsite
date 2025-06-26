@@ -21,7 +21,7 @@ export default function Experience() {
       company: "Indreni Social Development Forum (NGO)",
       period: "May 2024 - November 2024",
       type: "Remote",
-      liveDemo: "https://indreni.org",
+      liveDemo: "https://indreninepal.org",
       responsibilities: [
         "Developed a scalable NGO website using the MERN stack with a responsive UI styled in Tailwind CSS and image storage via Cloudinary.",
         "Built a secure admin panel for managing content such as images, announcements, and project details.",

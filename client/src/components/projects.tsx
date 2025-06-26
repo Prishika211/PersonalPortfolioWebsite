@@ -10,8 +10,7 @@ export default function Projects() {
       title: "RoboWars",
       description: "Developed a registration website using ReactJS and Tailwind CSS to promote and manage registrations for a Robot Wars Event at Chandigarh University. Features captivating animations using Framer Motion and optimized interface with ShadCN.",
       technologies: ["ReactJS", "TailwindCSS", "ShadCN", "Framer Motion"],
-      githubUrl: "https://github.com/Prishika211/robowars",
-      liveUrl: "https://robowars-cu.vercel.app",
+      liveUrl: "https://robowars.vercel.app/",
       highlight: "50% increase in page responsiveness and user satisfaction scores",
       icon: "🤖",
       gradient: "from-blue-500 to-purple-600"
@@ -20,8 +19,7 @@ export default function Projects() {
       title: "Techeify",
       description: "Created using React.js and Tailwind CSS with modern responsive design. Features React Query for efficient API request caching and Express.js proxy server to handle backend requests seamlessly while circumventing CORS issues.",
       technologies: ["ReactJS", "TailwindCSS", "Express.js", "React Query"],
-      githubUrl: "https://github.com/Prishika211/techeify",
-      liveUrl: "https://techeify.vercel.app",
+      liveUrl: "https://techify-frontend.vercel.app/",
       highlight: "Optimized server performance with 2-hour API caching",
       icon: "💻",
       gradient: "from-emerald-500 to-blue-600"
@@ -98,21 +96,6 @@ export default function Projects() {
 
                   {/* Links */}
                   <div className="flex gap-4 mb-4">
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      asChild
-                      className="flex items-center"
-                    >
-                      <a
-                        href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Github className="w-4 h-4 mr-2" />
-                        GitHub
-                      </a>
-                    </Button>
                     <Button
                       size="sm"
                       asChild

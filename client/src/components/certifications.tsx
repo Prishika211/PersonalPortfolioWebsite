@@ -13,7 +13,7 @@ export default function Certifications() {
       description: "Comprehensive Java programming certification covering object-oriented programming, data structures, and advanced concepts.",
       icon: Coffee,
       color: "bg-red-100 text-red-600",
-      url: "https://drive.google.com/file/d/1example/view"
+      url: "https://drive.google.com/file/d/16MVjtrh3jY3eoKasebws3UcKQ7e3Sejc/view"
     },
     {
       title: "Associate Cloud Engineer Path Through Google Cloud Platform (GCP)",
@@ -22,16 +22,16 @@ export default function Certifications() {
       description: "Cloud engineering path certification covering GCP services, deployment, monitoring, and cloud architecture best practices.",
       icon: Cloud,
       color: "bg-blue-100 text-blue-600",
-      url: "https://cloud.google.com/learn/certification/cloud-engineer"
+      url: "https://drive.google.com/file/d/1xTmr51WAm97p1HpYTF6Qv5RnKvmkS_VF/view"
     },
     {
       title: "Serverless Knowledge Badge Assessment",
-      provider: "Cloud Skills",
+      provider: "AWS",
       year: "2025",
       description: "Advanced serverless architecture knowledge assessment covering modern cloud-native development practices and technologies.",
       icon: Zap,
       color: "bg-purple-100 text-purple-600",
-      url: "https://cloud.google.com/learn/certification/badges"
+      url: "https://drive.google.com/file/d/1nbTtHHTYgbaHa84AUemAFWToalQzkI_P/view"
     }
   ];
 

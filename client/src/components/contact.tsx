@@ -88,7 +88,7 @@ export default function Contact() {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/prishika-chaudhary",
-      href: "https://linkedin.com/in/prishika-chaudhary"
+      href: "https://www.linkedin.com/in/prishika-chaudhary-49915621b/"
     },
     {
       icon: Github,

@@ -7,20 +7,20 @@ import { Button } from "@/components/ui/button";
 export default function Research() {
   const publications = [
     {
-      title: "IEEE Conference Publication",
-      conference: "IEEE",
+      title: "Efficient Information Digest: Exploring AI- Driven PDF Summarization through Streamlit, Open API, and LangChain",
+      conference: "IICCCS",
       year: "2024",
-      description: "Research paper focusing on emerging technologies and AI-driven solutions presented at the IEEE conference. The work explores innovative approaches to software engineering challenges and proposes novel methodologies for improving system efficiency.",
-      url: "https://ieeexplore.ieee.org",
+      description: "Proposed a LangChain-powered AI web app using Streamlit for PDF summarization. Focused on combining API calls with context-aware NLP to help academics process large datasets effectively.",
+      url: "https://ieeexplore.ieee.org/document/10763576",
       icon: FileText,
       badgeColor: "bg-blue-100 text-blue-800"
     },
     {
-      title: "EmergIN Conference",
+      title: "Advanced Threat Detection: Leveraging Data Analytics for Cybersecurity Enhancement",
       conference: "EmergIN",
       year: "2024",
-      description: "Contributed research findings to the EmergIN conference, focusing on innovative solutions in software development and emerging technologies. The paper presents comprehensive analysis and practical implementations that contribute to the field of computer science.",
-      url: "https://emergin-conference.org",
+      description: "Leveraged ML techniques like XGBoost, LightGBM, and Random Forest to classify malicious URLs for phishing detection. Demonstrated high accuracy with reduced false positives to strengthen cybersecurity.",
+      url: "https://ieeexplore.ieee.org/document/10961019",
       icon: Microscope,
       badgeColor: "bg-emerald-100 text-emerald-800"
     }
