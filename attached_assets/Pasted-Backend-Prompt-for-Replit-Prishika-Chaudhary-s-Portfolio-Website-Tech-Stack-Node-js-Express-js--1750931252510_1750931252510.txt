@@ -1,0 +1,47 @@
+Backend Prompt for Replit: Prishika Chaudhary’s Portfolio Website
+Tech Stack: Node.js, Express.js, Supabase for database and authentication.
+Backend Overview: Create a minimal backend for the portfolio website to handle contact form submissions, storing visitor data in Supabase. The backend serves API endpoints and integrates with the frontend.
+Core Features:
+
+API Endpoint: /api/contact to receive POST requests from the contact form (name, email, message).
+Supabase Integration: Store contact form submissions in a contacts table.
+CORS Handling: Allow frontend requests from the Vercel-deployed domain.
+
+Initial Build: Contact API:
+
+Components:
+Express.js server with a single POST endpoint: /api/contact.
+Supabase client to insert form data into a contacts table (columns: id, name, email, message, created_at).
+
+
+Functionality:
+Validate form inputs (e.g., ensure email is valid, name/message not empty).
+Save data to Supabase with row-level security (public access for POST, authenticated user access for reads).
+Return success response (e.g., { "message": "Submission saved!" }) or error (e.g., { "error": "Invalid email" }).
+
+
+Directory Structure:
+server/index.js: Main Express server.
+server/package.json: Dependencies (express, @supabase/supabase-js, cors).
+vercel.json: Configure Vercel to deploy backend.
+
+
+Sample vercel.json:{
+  "version": 2,
+  "builds": [
+    { "src": "server/index.js", "use": "@vercel/node" },
+    { "src": "client/package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/server/index.js" },
+    { "src": "/(.*)", "dest": "/client/dist/$1" }
+  ]
+}
+
+
+
+Notes:
+
+Install dependencies in Replit: npm install express @supabase/supabase-js cors.
+Set up Supabase project and add API keys as environment variables in Replit (e.g., SUPABASE_URL, SUPABASE_KEY).
+Test endpoint with dummy data: { "name": "John", "email": "john@example.com", "message": "Great portfolio!" }.

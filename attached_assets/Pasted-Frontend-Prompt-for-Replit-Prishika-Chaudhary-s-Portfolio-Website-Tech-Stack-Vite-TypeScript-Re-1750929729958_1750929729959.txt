@@ -1,0 +1,49 @@
+Frontend Prompt for Replit: Prishika Chaudhary’s Portfolio Website
+Tech Stack: Vite, TypeScript, React, shadcn-ui, Tailwind CSS for frontend; Supabase for authentication and database (for contact form data).
+App Overview: Build a personal portfolio website for Prishika Chaudhary to showcase my professional profile, including experience, projects, education, technical skills, achievements, and certifications, based on my resumes. The site should be clean, responsive, and visually appealing, with a professional green and white color scheme.
+Core Features:
+
+Homepage: Display a hero section with my name, title (Software Engineer & Researcher), and a brief introduction.
+About: Summarize my background, education (B.E. in Computer Science, Chandigarh University, CGPA 8.24/10), and contact details (email, LinkedIn, GitHub).
+Experience: List roles from EPAM Systems (Jan 2024–present, Junior Software Test Automation Engineer) and Indreni Social Development Forum (May 2024–Nov 2024, Web Developer) with bullet points from resumes.
+Projects: Showcase RoboWars and Techeify projects with descriptions, tech stack, and links to GitHub or live demos.
+Research: Highlight two publications from 2024 IEEE and EmergIN conferences with abstracts and links (if available).
+Skills & Achievements: Display technical skills (Java, C++, JavaScript, etc.) and competitive coding ranks (Coding Ninjas, Codechef, etc.).
+Certifications: List certifications (NPTEL Java, Google Cloud, Serverless Badge) with years.
+Contact Form: Form to collect visitor name, email, and message, stored in Supabase.
+
+Initial Build: Homepage:
+
+Components:
+Header: Navigation bar with links to Home, About, Experience, Projects, Research, Skills, Certifications, Contact.
+Hero Section: My name, title, and a short bio (e.g., “I’m Prishika, a passionate Software Engineer and Researcher specializing in web development and AI-driven solutions”).
+CTA Button: “View My Work” linking to Projects section.
+Footer: Links to LinkedIn, GitHub, and email.
+
+
+Design:
+Use shadcn-ui for navigation, buttons, and form components.
+Apply Tailwind CSS with a green (#4CAF50) and white (#FFFFFF) color scheme, professional fonts (e.g., Inter or Roboto).
+Ensure responsive design for mobile and desktop.
+Add subtle animations (e.g., hover effects on buttons) using Framer Motion.
+
+
+Functionality:
+Static content pulled from resume data (hardcode for now).
+Contact form submits data to Supabase via a backend API (set up in backend prompt).
+Use dummy data for contact form testing (e.g., sample submission: name, email, message).
+
+
+Dummy Data Example:
+Hero: “Prishika Chaudhary, Software Engineer & Researcher”
+Bio: “Building innovative web solutions and advancing AI research.”
+Contact Form Response: “Thank you, [name], for your message!”
+
+
+
+Notes:
+
+Optimize for SEO with meta tags (e.g., “Prishika Chaudhary Portfolio”).
+Use a favicon (e.g., initials “PC” or a tech-related icon).
+Ensure accessibility (high-contrast text, alt text for images).
+Structure project in Replit: client/src for React components, client/public for assets.
